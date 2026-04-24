@@ -1,7 +1,7 @@
 %-------------------------
 % CV - Khaled Ehab Attia
 % LaTeX Template
-%-------------------------
+%------------------------- 
 
 \documentclass[a4paper,11pt]{article}
 
@@ -16,6 +16,7 @@
 
 % ---- Colors ----
 \definecolor{accentblue}{HTML}{2563EB}
+%\definecolor{darkblue}{HTML}{00008B}
 
 % ---- Section Formatting ----
 \titleformat{\section}
@@ -149,12 +150,21 @@ AI Engineer specializing in Computer Vision and LLM-powered systems, with hands-
 % CERTIFICATES
 %-------------------------
 \section{Certificates \& Scholarships}
-\cvcert{ACC -- AI and Machine Learning}{AI/ML Learning Journey Scholarship}{
-  Python, Data Analysis, Machine Learning, Deep Learning, NLP, and Generative AI. \newline
-  Topics span SWE foundations, data fluency, deep learning architectures, NLP-based generative models, and Agentic AI frameworks across \textbf{6 structured sprints (92 hours)}.
+\cvcert{American Center Cairo (ACC)}{AI/ML Program -- Sprints Platform}{
+  Full-stack AI/ML bootcamp covering Python, Data Analysis, Supervised \& Unsupervised Learning, 
+  Deep Learning, NLP, and Generative AI. \newline
+  Advanced topics include LLMs, Prompt Engineering, Agentic AI, LangChain, and RAG Pipelines 
+  across \textbf{6 sprints, 38 modules, and 92 hours of structured learning}.
 }{Jan 2026 -- Present}
 
 \vspace{4pt}
+
+% \cvcert{American Center Cairo (ACC)}{AI/ML Learning Journey Scholarship}{
+%   Python, Data Analysis, Machine Learning, Deep Learning, NLP, and Generative AI. \newline
+%   Topics span SWE foundations, data fluency, deep learning architectures, NLP-based generative models, and Agentic AI frameworks across \textbf{6 structured sprints (92 hours)}.
+% }{Jan 2026 -- Present}
+
+% \vspace{4pt}
 
 \cvcert{NVIDIA Deep Learning Institute}{Fundamentals of Deep Learning}{
   Neural network architectures, model training, and optimization using GPU-accelerated computing. \newline
@@ -174,7 +184,7 @@ AI Engineer specializing in Computer Vision and LLM-powered systems, with hands-
 %-------------------------
 \section{Projects}
 
-\cvproject{Robot Referee | Computer Vision Project}{2026}
+\cvproject{\href{https://github.com/Khaled100233/Robot-Referee}{Robot Referee | Computer Vision Project}}{2026}
 \newline \textit{Python, OpenCV, NumPy, Computer Vision, Object Detection, Real-Time Processing}
 \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=-5pt]
   \item Developed an automated referee system using computer vision to detect game events and support real-time decision making.
@@ -186,7 +196,16 @@ AI Engineer specializing in Computer Vision and LLM-powered systems, with hands-
 
 \vspace{6pt}
 
-\cvproject{Medicare Fraud Detection | Machine Learning Project}{2026}
+\cvproject{\href{https://github.com/Seif-3mk-hassan/Sprints-capstone-project}{Reviews Sentiment API -- Full Stack AI Project}}{2026}
+\newline \textit{Python, FastAPI, TextBlob, Pandas, SQLite, Docker} 
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=-5pt]
+  \item Owned and implemented the full ETL pipeline (\texttt{etl\_pipeline.py}), handling data extraction from raw CSV, quality assessment (nulls, duplicates, type mismatches), and comprehensive data cleaning.
+  \item Engineered the transformation logic including TextBlob NLP sentiment scoring and rolling average sentiment calculation per product, sorted by date.
+  \item Implemented the SQLite LOAD step to persist cleaned and transformed data, with robust try/except error handling for all file I/O operations.
+  \item Coordinated with teammates on database schema compatibility to ensure seamless integration with the FastAPI serving layer.
+\end{itemize}
+
+\cvproject{\href{https://github.com/Khaled100233/medicare-fraud-detection}{Medicare Fraud Detection | Machine Learning Project}}{2026}
 \newline \textit{Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn}
 \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=-5pt]
   \item Built a machine learning pipeline to detect fraudulent Medicare claims using structured healthcare data.
@@ -198,7 +217,7 @@ AI Engineer specializing in Computer Vision and LLM-powered systems, with hands-
 
 \vspace{6pt}
 
-\cvproject{Retail Analytics Copilot}{2025}
+\cvproject{\href{https://github.com/Khaled100233/retail-analytics-copilot}{Retail Analytics Copilot}}{2025}
 \newline \textit{Python, LangGraph, DSPy, SQLite}
 \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=-5pt]
   \item Built an AI agent that answers retail analytics questions by intelligently combining document retrieval (RAG) and SQL database queries.
